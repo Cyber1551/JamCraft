@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b608ad64dcc49044b9d67ff3c4ef4115, type: 3}
+  m_Name: GunDamageII
+  m_EditorClassIdentifier: 
+  Name: GunDamageII
+  AbilityType: 0
+  SkillPoints: 2
+  RequiredAbilities:
+  - {fileID: 11400000, guid: f5800e80ddd00e742842764645ac34c1, type: 2}
+  AbilityCondition:
+    Condition: 0
+    Operator: 0
+    StatType: 
+    Amount: 0
+    IsActive: 0
+  AbilityActive:
+    PlayerStatKey: GunDamage
+    modifier:
+    - ID: GunDamage2
+      Source: self
+      Amount: 15
+      IsPercent: 0
+      MaxStacks: 1
+    Option: 0
